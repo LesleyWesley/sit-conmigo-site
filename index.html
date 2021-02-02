@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Sit Conmigo</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,6 +22,8 @@
   <meta name="theme-color" content="#fafafa">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -32,14 +34,26 @@
   <header>
       <div class="full-width">
           <div class="half-width">
-              <figure>
-                  <img src="img//logo.png" alt="logo">
-              </figure>
-              <h1>Sit Conmigo</h1>
+                  <figure>
+                      <a href="#">
+                          <img src="img//logo.png" alt="logo">
+                      </a>
+                  </figure>
+                  <h1>Sit Conmigo</h1>
           </div>
 
-          <div class="half-width">
-              <i class="fa fa-bars"></i>
+          <div class="half-width, navigation" id="myTopnav">
+              <nav>
+
+                      <a href="#home" class="active"></a>
+                      <a href="#order">Pre-Order</a>
+                      <a href="#about">About</a>
+                      <a href="#contact">Contact</a>
+                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+              </nav>
+
           </div>
       </div>
   </header>
@@ -49,20 +63,20 @@
           <div class="full-width">
               <div class="second-rectangle">
                   <div class="inner-section">
-                      <div class="third-width">
+                      <div class="third-width, slogan-div">
                           <h2>Be kind to humanity and the environment, one seat at a time.</h2>
                       </div>
 
-                      <div class="third-width">
+                      <div class="third-width, image-div">
                           <figure>
-                              <img src="img//jade-rectangle.png" alt="Campo Chair">
+                              <img src="img//jade-rectangle@2x.png" alt="Campo Chair">
                           </figure>
                       </div>
 
-                      <div class="third-width">
-                          <div class="button">
-                              <h3>Pre-Order Now</h3>
-                          </div>
+                      <div class="third-width, button-div">
+                          <a href="https://www.lesleywesley.com/" target="_BLANK">
+                              <button>Pre-Order Now</button>
+                          </a>
                       </div>
                   </div>
               </div>
@@ -71,63 +85,57 @@
 
       <section id="order">
           <div class="full-width">
-              <h2>Pre-order your stylish, sustinably built chair today!</h2>
+              <h2>Pre-order your stylish, sustainably-built chair today!</h2>
 
-              <div class="row">
-                  <div class="half-width">
+                <div class="row">
+                  <div class="half-width, chair-profile">
                       <figure>
                           <img src="img//green-pattern.png" alt="Urbe Green">
                       </figure>
 
-                      <p>Urbe Green</p>
-                      <p>$000</p>
+                      <p>Urbe Green / $000</p>
 
-                      <div class="button">
-                          <h4>Pre-Order</h4>
-                      </div>
+                      <a href="https://www.lesleywesley.com/" target="_BLANK">
+                          <button>Pre-Order</button>
+                      </a>
                   </div>
 
-                  <div class="half-width">
+                  <div class="half-width, chair-profile">
                       <figure>
-                          <img src="img//white-full.png" alt="Playa">
+                          <img src="img//white-edit.png" alt="Playa">
                       </figure>
 
-                      <p>Playa</p>
-                      <p>$000</p>
-
-                      <div class="button">
-                          <h4>Pre-Order</h4>
-                      </div>
+                      <p>Playa / $000</p>
+                      <a href="https://www.lesleywesley.com/" target="_BLANK">
+                          <button>Pre-Order</button>
+                      </a>
                   </div>
+
               </div>
-
               <div class="row">
-                  <div class="half-width">
+
+                  <div class="half-width, chair-profile">
                       <figure>
-                          <img src="img//green-pattern.png" alt="Campo">
+                          <img src="img//jade-for-real.png" alt="Campo">
                       </figure>
 
-                      <p>Campo</p>
-                      <p>$000</p>
-
-                      <div class="button">
-                          <h4>Pre-Order</h4>
-                      </div>
+                      <p>Campo / $000</p>
+                      <a href="https://www.lesleywesley.com/" target="_BLANK">
+                          <button>Pre-Order</button>
+                      </a>
                   </div>
 
-                  <div class="half-width">
+                  <div class="half-width, chair-profile">
                       <figure>
                           <img src="img//red-pattern.png" alt="Urbe Red">
                       </figure>
 
-                      <p>Urbe Red</p>
-                      <p>$000</p>
-
-                      <div class="button">
-                          <h4>Pre-Order</h4>
-                      </div>
+                      <p>Urbe Red / $000</p>
+                      <a href="https://www.lesleywesley.com/" target="_BLANK">
+                        <button>Pre-Order</button>
+                      </a>
                   </div>
-              </div>
+                </row>
           </div>
       </section>
 
@@ -145,10 +153,10 @@
 
               <div class="half-width">
                   <figure>
-                      <img src="img//yolanda-lopez-2.png" alt="Yolanda Lopez">
+                      <img src="img//yolanda-edit.png" alt="Yolanda Lopez">
                   </figure>
 
-                  <p>Yolanda Lopez, CEO & Founder</p>
+                  <p class="caption">Yolanda Lopez<span>,</span><br> CEO & Founder</p>
               </div>
           </div>
       </section>
@@ -171,15 +179,34 @@
               </div>
           </div>
 
-          <div class="half-width, social-icons">
-              <i class="fab fa-facebook-square"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-instagram"></i>
+          <div class="half-width">
+              <div class="social-icons">
+                  <a href="https://www.facebook.com/" target="_BLANK">
+                      <i class="fab fa-facebook-square"></i>
+                  </a>
+                  <a href="https://twitter.com/home" target="_BLANK">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://www.instagram.com/" target="_BLANK">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+              </div>
           </div>
 
-          <p>Copyright Sit Conmigo 2021</p>
+          <p class="copyright">Copyright Sit Conmigo 2021</p>
       </div>
   </footer>
+
+  <script>
+      function myFunction() {
+        var x = document.getElementById('myTopnav');
+          if (x.className === "navigation") {
+            x.className += " responsive";
+          } else {
+            x.className = "navigation";
+          }
+      }
+  </script>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>

@@ -87,6 +87,341 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*===========BASE STYLES - MOBILE====================*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Helvetica", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+.full-width {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 85%;
+  padding: 25px 0;
+}
+
+.half-width {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Bellota", cursive;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #D8D8C0;
+  padding-left: 5px;
+}
+
+h2 {
+  font-family: "Bellota", cursive;
+  font-size: 1.15em;
+  color: #025964;
+  text-align: center;
+}
+
+i {
+  color: #D8D8C0;
+  font-size: 1.5em;
+}
+
+button {
+  color: white;
+  background-color: #730071;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+li {
+  list-style-type: none;
+
+}
+
+a {
+  text-decoration: none;
+  color: #D8D8C0;
+}
+
+/*==============HEADER SECTION - MOBILE ===================*/
+
+header {
+  background-color: #025964;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid #D8D8C0;
+}
+
+header .full-width {
+  justify-content: space-between;
+}
+
+header .half-width {
+  width: 50%;
+  justify-content: flex-start;
+  flex-flow: nowrap;
+}
+
+header figure {
+  width: 13%;
+}
+
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: nowrap;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0;
+}
+
+
+
+
+
+/*==========HERO SECTION - MOBILE ================*/
+
+#hero {
+  background: url(../img/jungle-leaves.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#hero .full-width {
+  background-color: #D8D8C0;
+  width: 80%;
+  margin: 50px 0;
+  padding: 7px 0;
+}
+
+.second-rectangle {
+  background: url(../img/jungle-leaves.png);
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-section {
+  width: 93%;
+  background-color: #D8D8C0;
+  margin: 10px 0;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.third-width {
+  width: 80%;
+  display:flex;
+  justify-content: center;
+}
+
+.slogan-div {
+  width: 80%;
+}
+
+#hero h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.image-div {
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+#hero figure {
+  border: 5px solid #025964;
+  margin: 25px 0;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 15px;
+}
+
+/*==================PREORDER SECTION - MOBILE =================*/
+
+#order {
+    background: #D8D8C0;
+}
+
+#order h2 {
+  width: 85%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #025964;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.chair-profile {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 85%;
+}
+
+#order img {
+  border-radius: 50%;
+  border: 5px solid #025964;
+  margin-bottom: 15px;
+}
+
+#order p {
+  width: 100%;
+  text-align: center;
+  color: #025964;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+#order button {
+  font-size: 1em;
+  margin-top: 15px;
+  padding: 10px 25px;
+}
+
+/*================ABOUT SECTION - MOBILE ==================*/
+
+#about {
+  background: #025964;
+}
+
+ #about h2 {
+  margin: 25px 0;
+  color: #D8D8C0;
+  font-size: 1.14em;
+  border-bottom: 1px solid #D8D8C0;
+  padding-bottom: 20px;
+}
+
+#about p {
+  color: #D8D8C0;
+  line-height: 1.55em;
+}
+
+#about figure {
+  text-align: center;
+}
+
+#about img {
+  border-radius: 50%;
+  margin-top: 25px;
+  width: 80%;
+  border: 5px solid #730071;
+}
+
+#about span {
+  display: none;
+}
+
+/*===================CONTACT SECTION - MOBILE =============*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+#contact {
+  background: #730071;
+}
+
+#contact h2 {
+  color: #D8D8C0;
+  border-bottom: 1px solid #D8D8C0;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+#contact p {
+  color: #D8D8C0;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: nowrap;
+  width: 60%;
+}
+
+.contact-info i {
+  font-size: 1.25em;
+  margin-right: 10px;
+}
+
+.social-icons {
+  margin: 50px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons i {
+  font-size: 2.5em;
+  padding: 0 15px;
+}
+
+.copyright {
+  font-size: .85em;
+}
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -175,9 +510,434 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+   @media screen and (max-width: 600px) {
+     .navigation a:not(:first-child) {display: none;}
+     .navigation a.icon {
+       float: right;
+       display: block;
+     }
+   }
+
+   @media screen and (max-width: 600px) {
+     .navigation.responsive {
+       position: relative;
+       padding-top: 75px;
+       width: 100%;
+       font-size: 1.25em;
+       line-height: 30px;
+       text-align-last: center;
+     }
+
+
+     .navigation.responsive .icon {
+       position: absolute;
+       right: 0;
+       top: 25px;
+       text-align: center;
+       width: 100%;
+     }
+     .navigation.responsive a {
+       float: none;
+       display: block;
+       text-align: left;
+     }
+   }
+
+  @media only screen and (min-width: 601px) {
+    a.icon {
+      display: none;
+    }
+
+    a {
+      padding: 0 5px;
+    }
+  }
+
+ @media only screen and (min-width: 768px) {
+
+/*============HEADER SECTION - TABLET =================*/
+    header .full-width {
+      padding: 10px 0;
+    }
+
+    header .half-width {
+      width: 45%;
+    }
+
+    header figure {
+      width: 8%;
+    }
+
+
+    h1 {
+      font-size: 1.5625em;
+      font-weight: normal;
+      padding-left: 10px;
+    }
+
+    .navigation {
+      justify-content: flex-end;
+      width: 50%;
+    }
+
+
+    nav {
+      width: 75%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    a {
+      padding: 0;
+    }
+
+
+    a:hover {
+      color: #730071;
+    }
+
+  /*================HERO SECTION - TABLET =================*/
+
+    #hero .full-width {
+      width: 87%;
+      margin: 35px 0;
+      padding: 10px 0;
+    }
+
+    .second-rectangle {
+      width: 97%;
+    }
+
+    .inner-section {
+      width: 96%;
+      padding: 25px 0;
+    }
+
+    h2 {
+      font-size: 1.5625em;
+      margin-bottom: 0;
+    }
+
+    .image-div {
+      display: flex;
+      justify-content: center;
+    }
+
+    #hero figure {
+      width: 50%;
+    }
+
+    #hero button {
+      font-size: 1.3em;
+      padding: 15px 20px;
+    }
+
+
+
+  /*==============PREORDER SECTION - TABLET ==============*/
+
+    #order h2 {
+      width: 100%;
+    }
+
+    .row {
+      justify-content: space-around;
+    }
+
+    .chair-profile {
+      width: 40%;
+    }
+
+
+
+    #order button {
+      padding: 15px 50px;
+      font-size: 1.2em;
+      margin-bottom: 25px;
+    }
+
+  /*===============ABOUT SECTION - TABLET ==================*/
+
+  #about {
+    background: url(../img/jungle-leaves.png);
+  }
+
+  #about .full-width {
+    background-color: #025964;
+    width: 80%;
+    border-left: 5px solid #D8D8C0;
+    border-right: 5px solid #D8D8C0;
+  }
+
+  #about h2 {
+    padding-top: 50px;
+    width: 65%;
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+
+  #about p {
+    width: 60%;
+    line-height: 1.75em;
+  }
+
+  #about figure {
+    width: 55%;
+  }
+
+  .caption {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  #about span {
+    display: contents;
+  }
+
+  br {
+    display: none;
+  }
+
+/*===============CONTACT SECTION - TABLET ===================*/
+#contact {
+  width: 100%;
 }
+
+#contact h2 {
+  width: 25%;
+  margin: 50px 100px 25px 100px;
+}
+
+#contact .full-width {
+  justify-content: space-around;
+}
+
+
+#contact .half-width {
+  width: 40%;
+}
+
+.contact-info i {
+  margin-bottom: -5px;
+}
+
+.social-icons {
+  width: 50%;
+}
+
+
+.social-icons i {
+  font-size: 2.25em;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+ }
+
+ @media only screen and (min-width: 1024px) {
+
+/*===========HEADER STYLINGS - SMALL DESKTOP =================*/
+
+   h1 {
+     font-size: 2em;
+   }
+
+   nav {
+     width: 60%;
+   }
+
+/*===========HERO STYLINGS - SMALL DESKTOP =================*/
+
+    #hero .full-width {
+      margin: 60px 0;
+      padding: 8px 0;
+    }
+
+    .second-rectangle {
+      width: 98%;
+    }
+
+   .third-width {
+     width: 40%;
+   }
+
+   .inner-section {
+     width: 98%;
+     margin: 8px 0;
+     justify-content: space-around;
+     align-items: flex-start;
+     flex-flow: column wrap;
+     height: 350px;
+   }
+
+   #hero figure {
+     width: 100%;
+   }
+
+   #hero h2 {
+     font-size: 2em;
+     margin-top: 40px;
+   }
+
+   .slogan-div {
+     width: 40%;
+     margin-left: 40px;
+   }
+
+   .image-div {
+     order: 2;
+     margin: 50px 0;
+     width: 40%;
+   }
+
+   .button-div {
+     order: 1;
+     margin: 0 0 50px 85px;
+   }
+
+   #hero button {
+     padding: 20px 45px;
+   }
+
+/*=================ORDER SECTION - SMALL DESKTOP =============*/
+
+  #order .full-width {
+    padding: 100px 0;
+  }
+
+  #order h2 {
+    font-size: 2em;
+    margin-bottom: 50px;
+  }
+
+/*================ABOUT SECTION - SMALL DESKTOP ============*/
+
+  #about h2 {
+    width: 45%;
+  }
+
+  /*=============CONTACT SECTION - SMALL DESKTOP ============*/
+
+  #contact h2 {
+    width: 75%;
+    margin-bottom: 50px;
+  }
+
+  #contact .half-width {
+    width: 45%;
+  }
+
+  .social-icons {
+    width: 75%;
+  }
+
+ }
+
+ @media only screen and (min-width: 1200px) {
+
+/*========== HEADER - LARGE DESKTOP ========================*/
+
+   header figure {
+     width: 5%;
+   }
+
+   nav {
+     width: 65%;
+   }
+
+/*=========HERO SECTION - LARGE DESKTOP =====================*/
+
+  #hero .full-width {
+    margin: 75px 0;
+  }
+
+  .second-rectangle {
+    width: 98.5%;
+  }
+
+  .inner-section {
+    width: 98.5%;
+    height: 450px;
+  }
+
+  .slogan-div {
+    width: 30%;
+    margin-left: 125px;
+  }
+
+  #hero h2 {
+    font-size: 2.3em;
+  }
+
+  .button-div {
+    margin: 0 0 50px 160px;
+  }
+
+  #hero button {
+    font-size: 1.75em;
+  }
+
+/*=============PREORDER SECTION - LARGE DESKTOP ===============*/
+
+  #order img {
+    height: 400px;
+    width: auto;
+  }
+
+/*=========ABOUT SECTION - LARGE DESKTOP ===================*/
+
+  #about h2 {
+    font-size: 2em;
+    width: 80%;
+  }
+
+  #about .full-width {
+    justify-content: center;
+  }
+
+  #about .half-width {
+    width: 45%;
+    margin-bottom: 50px;
+  }
+
+  #about p {
+    width: 70%;
+    font-size: 1.15em;
+  }
+
+  #about figure {
+    width: 90%;
+  }
+
+/*==========CONTACT SECTION - LARGE DESKTOP =================*/
+
+  #contact h2 {
+    width: 70%;
+  }
+
+  #contact .half-width {
+    margin-bottom: 75px;
+  }
+
+  .contact-info i {
+    font-size: 1.75em;
+  }
+
+  #contact p {
+    font-size: 1.2em;
+  }
+
+  .social-icons {
+    width: 50%;
+  }
+
+
+
+ }
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
@@ -260,4 +1020,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
